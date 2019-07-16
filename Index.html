@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		
+		<script>
+			
+			var userAge = +prompt('Сколько Вам лет?');
+
+			if(userAge > 200 || userAge === 0) {
+				alert ('Вот это возраст!!!');
+			}	else if(userAge%10 === 1 && userAge !== 11 && userAge !== 111) {
+				alert('Вам ' + userAge + ' год');
+			} else if(userAge >= 12 && userAge <=14){
+				alert('Вам ' + userAge + ' лет');
+
+			} else if(userAge%10 === 2 || userAge%10 === 3 || userAge%10 === 4){
+				alert('Вам ' + userAge + ' года');
+			} else if (userAge ){
+				alert('Вам ' + userAge + ' лет');
+			}
+			 else {
+				alert('Так не честно,это не число :)');
+			};
+
+
+
+
+
+
+		</script>
+	</body>
+</html>
